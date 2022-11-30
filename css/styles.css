@@ -48,6 +48,8 @@ p {
 
 /* Хедер */
 
+/* ЛОГО */
+
 .navigation__link {
   color: var(--primary-text-color);
   text-decoration: none;
@@ -77,10 +79,6 @@ p {
 .site-nav {
   display: flex;
 }
-
-/* .item-nav {
-  position: relative;
-} */
 
 .site-nav__link::after {
   display: block;
@@ -226,8 +224,8 @@ p {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn:hover,
-.btn:focus {
+.hero__button:hover,
+.hero__button:focus {
   background-color: var(--btn-active);
 }
 
@@ -605,8 +603,6 @@ p {
 
 .footer__link {
   display: inline-block;
-
-  /* align-items: center; */
 }
 
 .footer__thumb {
@@ -641,15 +637,11 @@ p {
   padding-left: 0;
 }
 
-.icon-link.inst {
+/* .icon-link.inst {
   fill: currentColor;
-}
-
-/* .subscribe {
-  margin-left: 93px;
 } */
 
-.form-thumb {
+/* .form-thumb {
   padding-top: 12px;
 }
 
@@ -657,7 +649,7 @@ p {
   color: rgba(255, 255, 255, 0.6);
   font-size: 16px;
   line-height: calc(20 / 16);
-}
+} */
 
 .form__text {
   display: inline-block;
@@ -1084,10 +1076,6 @@ p {
 .modal__btn:focus {
   background-color: var(--btn-active);
 }
-
-/* .policy__icon {
-
-} */
 
 .modal__input:focus {
   border: 1px solid var(--accent-color);
